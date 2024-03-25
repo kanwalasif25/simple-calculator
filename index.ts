@@ -1,7 +1,7 @@
 #! /usr/bin/env node 
 
 import inquirer from "inquirer";
-
+console.log("Welcome to Calculator")
 const answers = await inquirer.prompt([
   { message: "Enter the first number", type: "number", name: "firstNumber" },
   { message: "Enter the second number", type: "number", name: "secondNumber" },
